@@ -1,0 +1,161 @@
+body{
+    background: url(https://i.pinimg.com/originals/04/bb/e5/04bbe59b81c9b5cb60b6e7b31c349576.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.searchicon{
+    width: 30px;
+    position: relative;
+    right: 40px;
+    
+    
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    
+    
+    
+}
+input{
+ width: 330px;
+ align-items: center;
+margin-top: 10px;
+padding: 10px;
+border-radius: 30px;
+border: none;
+box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+color: #333;
+  -webkit-text-stroke: 1px #282828;
+  text-shadow: 0px 4px 4px #282828;
+outline-color: skyblue;
+
+
+
+
+
+ 
+}
+.inputicon{
+    width: 400px;
+ background: linear-gradient(skyblue,white,skyblue);
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.45) inset;
+    border-radius: 30px;
+   
+}
+
+.image{
+    display: flex;
+   align-items: center;
+    height: 150px;
+    padding-left: 100px;
+    margin-bottom: 10px;
+}
+.temp,
+.city,
+.country{
+    margin-top: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+.temp{
+    font-weight: 500;
+}
+.city{
+    color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px #F8F8F8;
+  text-shadow: 0px 2px 4px blue;
+}
+.country{
+ font-size: 20px;
+
+    
+}
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.cord div{
+    display: flex;
+    flex-direction: column;
+    color: red;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+  color: white;
+  font:
+    1.5em Georgia,
+    serif;
+
+}
+.element img{
+width: 60px;
+height: 60px;
+}
+.element1 img{
+    width: 86px;
+    height: 60px;
+    padding-left: 20px;
+
+    }
+.data-container{
+    display: flex;
+justify-content: space-between;
+color: white;
+text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}
+.percentage{
+    text-align: center;
+}
+.citynot
+{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    -webkit-text-stroke: 1px #F8F8F8;
+    text-shadow: 0px 2px 4px blue;
+      text-align: center;
+}
+
+    @media screen and (max-width:600px) {
+        .searchicon{
+            width: 30px;
+           position: relative;
+           left: 280px;
+           bottom: 35px;
+
+            
+        
+        }
+    }
+
